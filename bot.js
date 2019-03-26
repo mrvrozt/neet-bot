@@ -16,13 +16,14 @@ const client = new Discord.Client();
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'IDLE'});
 		//client.user.setPresence({ game: { name: status, type: 'WATCHING' }, status: 'IDLE'});
 	//}, 5000);
+//});
 //client.user.setActivity("TV", {type: "Watching"})
 //client.user.setActivity("with Bobbo", {type: "Sleeping"})
 client.user.setActivity("Nintendo Switch")
 //client.user.setActivity("with my dick")
 //client.user.setActivity("with Bobbo")
 //client.user.setActivity("with Steve and Pokie")
-});
+
 
 //client.on('message', (recievedMessage) => {
 //	if (recievedMessage.author == client.user)	{
