@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const activities_list = ["Playing", "Watching"];
+//const activities_list = ["Playing", "Watching"];
 
 //let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
 let statuses = ["Hentai", "Pornhub", "my Penis Grow", "Gay Porn", "Someone Jerk Off"]; //Status for Watching
@@ -15,7 +15,7 @@ console.log(`Logged in as ${client.user.tag}!`);
 		//client.user.setPresence({ game: { name: status, type: 'LISTENING' }, status: 'IDLE'});
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'IDLE'});
 		client.user.setPresence({ game: { name: status, type: 'WATCHING' }, status: 'IDLE'});
-	}, 30000);
+	}, 5000);
 //client.user.setActivity("TV", {type: "Watching"})
 //client.user.setActivity("with Bobbo", {type: "Sleeping"})
 //client.user.setActivity("Nintendo Switch")
