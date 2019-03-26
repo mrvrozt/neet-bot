@@ -1,0 +1,29 @@
+Commands:
+
+**.neet**
+__(Get random pictures of me :grin:)__
+**.pinch**
+__(Pinch my soft cheeks :blush:)__
+**.kiss**
+__(I'll kiss you back :kissing_closed_eyes:)__
+**.coffee**
+__(Here, take a cup of coffee)__
+**.tea**
+__(Same thing as above)__
+**.8ball**
+__(If you're not sure what to do)__
+**.rps**
+__(Rock,Paper,Scissor)__
+**.rate**
+__(I'd rate anything you want)__
+**.howgay**
+__(Test how gay you are)__
+**.howsmyluck**
+__(Test your luck)__
+**.coinflip**
+__(You already know what it is)__
+**.stp**
+__(Let me guess which rarity you'll get)__
+
+**.ping**
+**.ding**
