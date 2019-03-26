@@ -15,8 +15,8 @@ console.log(`Logged in as ${client.user.tag}!`);
         //},
         //status: 'idle'
     //})
-    bot.user.setStatus('idle')
-    bot.user.setPresence({
+    client.user.setStatus('idle')
+    client.user.setPresence({
         game: {
             name: '東京放課後サモナーズ',
             type: "STREAMING",
