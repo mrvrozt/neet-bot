@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const commando = require('discord.js-commando');
 
 const client = new Discord.Client();
 const activities_list = ["Playing", "Watching"];
@@ -221,81 +220,5 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 
 });
 
-
-
-//const swearWords = ["stfu", "fuck", "bitch", "asshole", "wtf"];
-//client.on('message', msg => {
-//    if( swearWords.some(word => msg.content.includes(word)) ) {
-//        //msg.reply("Oh no you said a bad word!!!");
-//		msg.channel.send("Oh no you said a bad word!!!");
-//    }
-//});
-
-//let censor = "[Sorry, I Swear]"; /* Replace this with what you want */
-//client.on('message', message => {
-//    let edit = message.content.replace(/asshole/gi, censor);
-//    message.delete();
-//    message.channel.send(`${message.author.username}: ${edit}`);
-//}
-
-//const trashWords = (`/trash/gi`);
-//client.on('message', msg => {
-//   if( trashWords.some(word => msg.content.includes(word)) ) {
-//        //msg.reply("Hey don't say that! :rage:");
-//		msg.channel.send("Hey don't say that! :rage:");
-//    }
-//});
-
-//const coffeeWords = ["coffee"];
-//client.on('message', msg => {
-//    if( coffeeWords.some(word => msg.content.includes(word)) ) {
-//		msg.channel.send("Heh one still hot :coffee:");
-//    }
-//});
-
-//const teaWords = ["tea"];
-//client.on('message', msg => {
-//    if( teaWords.some(word => msg.content.includes(word)) ) {
-//		msg.channel.send("Warm :tea:");
-//    }
-//});
-
-//const apprWords = ["thx tsath", "thx tsathoggua", "thank you tsath", "thank you tsathoggua", "thank you so much tsath" , "thank you so much tsathoggua"];
-//client.on('message', msg => {
-//    if( apprWords.some(word => msg.content.includes(word)) ) {
-//		msg.channel.send("You're welcome buddy :blush:");
-//   }
-//});
-
-
-//client.on('message', msg => {
-//if (msg.content === 'trash') {
-//msg.reply("Don't say that :rage:");
-//}
-//});
-
-//client.on('message', msg => {
-//if (msg.content === 'trash') {
-//msg.channel.send("Don't say that :rage:");
-//}
-//});
-
-//client.on('message', (msg) => {
-//	if (msg.content === "i'm handsome") {
-//		msg.channel.send(`Yes you are ${msg.author}!`);
-//	}
-//});
-
-//client.on('message', (msg) => {
-//	if (msg.content === "ping") {
-//		msg.channel.send("pong");
-//	}
-//});
-
-//client.on('message', (msg) => {
-//	if (msg.content === "ding") {
-//		msg.channel.send("dong");
-//	}
-//});
 
 client.login(process.env.BOT_TOKEN);
