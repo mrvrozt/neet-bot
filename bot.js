@@ -15,7 +15,7 @@ console.log(`Logged in as ${client.user.tag}!`);
 		//client.user.setPresence({ game: { name: status, type: 'LISTENING' }, status: 'IDLE'});
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'IDLE'});
 		client.user.setPresence({ game: { name: status, type: 'WATCHING' }, status: 'IDLE'});
-	}, 3000000);
+	}, 30000);
 //client.user.setActivity("TV", {type: "Watching"})
 //client.user.setActivity("with Bobbo", {type: "Sleeping"})
 //client.user.setActivity("Nintendo Switch")
@@ -83,10 +83,6 @@ client.on('message', message => {
 		message.channel.send(`${message.author} <:luv:550567524320804875>`);
 	}
 
-	if (msg.includes(`.SETACTIVITY`)){
-		message.channel.send(`${message.author} Sorry you don't have permission to do this`);
-	}
-
 	if (msg.includes(`TRASH`)){
 		message.channel.send("Hey don't say **TRASH**! :rage:");
 	}
@@ -111,22 +107,17 @@ client.on('message', message => {
 		message.channel.send("Dong!");
 	}
 
-	if (msg.includes(`BE GOOD TSATH`)){
-		message.channel.send("Yes, I'll try my best :grin:");
+	if (msg.includes(`WTF`)){
+		message.channel.send("What so excited about that");
 	}
 
+	if (msg.includes(`BITCH`)){
+		message.channel.send("Uh-oh not cool bruh");
+	}
 
-	//if (msg.includes(`WTF`)){
-	//	message.channel.send("Oh no you said a bad word!");
-	//}
-
-	//if (msg.includes(`BITCH`)){
-	//	message.channel.send("Oh no you said a bad word!");
-	//}
-
-	//if (msg.includes(`ASSHOLE`)){
-	//	message.channel.send("Oh no you said a bad word!");
-	//}
+	if (msg.includes(`ASSHOLE`)){
+		message.channel.send("My hole also smells great");
+	}
 
 });
 
