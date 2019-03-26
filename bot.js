@@ -21,7 +21,7 @@ client.user.setActivity("Nintendo Switch")
 //client.user.setActivity("with my dick")
 //client.user.setActivity("with Bobbo")
 //client.user.setActivity("with Steve and Pokie")
-//});
+});
 
 //client.on('message', (recievedMessage) => {
 //	if (recievedMessage.author == client.user)	{
