@@ -8,13 +8,21 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setPresence({
-        game: { 
-            name: 'my Penis Grow',
-            type: 'WATCHING'
-        },
-        status: 'idle'
-    })
+	//client.user.setPresence({
+        //game: { 
+            //name: 'my Penis Grow',
+            //type: 'WATCHING'
+        //},
+        //status: 'idle'
+    //})
+    bot.user.setStatus('idle')
+    bot.user.setPresence({
+        game: {
+            name: '東京放課後サモナーズ',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/monstercat"
+        }
+    });
 	//setInterval(function(){
 		//let status = statuses[Math.floor(Math.random()*statuses.length)];
 		//client.user.setPresence({ game: { name: status, type: 'STREAMING' }, status: 'IDLE'});
