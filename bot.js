@@ -4,21 +4,21 @@ const client = new Discord.Client();
 //const activities_list = ["Playing", "Watching"];
 
 //let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
-let statuses = ["Hentai", "Pornhub", "my Penis Grow", "Gay Porn", "Someone Jerk Off"]; //Status for Watching
+//let statuses = ["Hentai", "Pornhub", "my Penis Grow", "Gay Porn", "Someone Jerk Off"]; //Status for Watching
 
-client.on('ready', () => {
-console.log(`Logged in as ${client.user.tag}!`);
+//client.on('ready', () => {
+//console.log(`Logged in as ${client.user.tag}!`);
 
-	setInterval(function(){
-		let status = statuses[Math.floor(Math.random()*statuses.length)];
+	//setInterval(function(){
+		//let status = statuses[Math.floor(Math.random()*statuses.length)];
 		//client.user.setPresence({ game: { name: status, type: 'STREAMING' }, status: 'IDLE'});
 		//client.user.setPresence({ game: { name: status, type: 'LISTENING' }, status: 'IDLE'});
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'IDLE'});
-		client.user.setPresence({ game: { name: status, type: 'WATCHING' }, status: 'IDLE'});
-	}, 5000);
+		//client.user.setPresence({ game: { name: status, type: 'WATCHING' }, status: 'IDLE'});
+	//}, 5000);
 //client.user.setActivity("TV", {type: "Watching"})
 //client.user.setActivity("with Bobbo", {type: "Sleeping"})
-//client.user.setActivity("Nintendo Switch")
+client.user.setActivity("Nintendo Switch")
 //client.user.setActivity("with my dick")
 //client.user.setActivity("with Bobbo")
 //client.user.setActivity("with Steve and Pokie")
