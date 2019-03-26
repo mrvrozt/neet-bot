@@ -146,7 +146,7 @@ return Math.floor(Math.random() * (max - min)) + min;
 if (msg.content.toLowerCase().startsWith(".8ball")) {
 	var msg1 = Array(5); 
 		msg1[1] = "Yes";
-	    msg1[2] = "No";
+	    	msg1[2] = "No";
 		msg1[3] = "Maybe :wink:";
 		msg1[4] = "Without a doubt.";
 		msg1[5] = "I honestly have no idea :neutral_face:"
@@ -154,17 +154,17 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         var x = getRandomInt(0, 20);
 		if (x < 5){ 
         if (x < 3){
-			msg.channel.send(msg1[1]);
+		msg.channel.send(msg1[1]);
 		}
 		else {
-               msg.channel.send(msg1[3]);
+               	msg.channel.send(msg1[3]);
 		}
 		}
 		else if (x<= 9) {
-			if (x >= 7){
-			msg.channel.send(msg1[2]); }
-				else{
-                   msg.channel.send(msg1[4]);
+		if (x >= 7){
+		msg.channel.send(msg1[2]); }
+		else{
+                msg.channel.send(msg1[4]);
 				}
 		} 
 		else if (x <= 12 ) { 
@@ -178,19 +178,37 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 	if (msg.content.toLowerCase().startsWith(".rps")) {
 		var msg1 = Array(3);
 		msg1[1] = "Rock :black_circle:";
-	    msg1[2] = "Paper :page_facing_up:";
+	    	msg1[2] = "Paper :page_facing_up:";
 		msg1[3] = "Scissors :scissors:"
-        var x = getRandomInt(0, 9);
+        	var x = getRandomInt(0, 9);
 		if (x < 6){
-        if (x < 3){
-			msg.channel.send(msg1[1]);
+        	if (x < 3){
+		msg.channel.send(msg1[1]);
 		}
 		else{
-            msg.channel.send(msg1[3]);
+            	msg.channel.send(msg1[3]);
 		}
 		}
 		else{ 
-			msg.channel.send(msg1[2]);
+		msg.channel.send(msg1[2]);
+	}
+}
+	if (msg.content.toLowerCase().startsWith(".stp")) {
+		var msg1 = Array(3);
+		msg1[1] = "You'll get a 3<:starz:550571430610337794>";
+	    	msg1[2] = "You'll get a 4<:starz:550571430610337794>";
+		msg1[3] = "You'll get a 5<:starz:550571430610337794>"
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(msg1[1]);
+		}
+		else{
+            	msg.channel.send(msg1[3]);
+		}
+		}
+		else{ 
+		msg.channel.send(msg1[2]);
 	}
 }
 
@@ -206,15 +224,15 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 			msg.channel.send("Your luck is "+ getRandomInt(1, 100)+"%");
 		}
 
-		if (msg.content.toLowerCase().startsWith(".stp")) {
-			msg.channel.send("You'll get a "+ getRandomInt(3, 5)+"<:starz:550571430610337794>");
-		}
+		//if (msg.content.toLowerCase().startsWith(".stp")) {
+		//	msg.channel.send("You'll get a "+ getRandomInt(3, 5)+"<:starz:550571430610337794>");
+		//}
 
       	if (msg.content.toLowerCase().startsWith(".coinflip")) { 
 		var msg2 = Array(2);
 		msg2[1] = "Heads";
-	    msg2[2] = "Tails";
-        var x = getRandomInt(0, 8);
+	    	msg2[2] = "Tails";
+        	var x = getRandomInt(0, 8);
 		if (x < 4){
 			msg.channel.send(msg2[1]);
 		}
