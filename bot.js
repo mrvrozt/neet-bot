@@ -195,9 +195,9 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 }
 	if (msg.content.toLowerCase().startsWith(".stp")) {
 		var msg1 = Array(3);
-		msg1[1] = "${message.author} You'll get a **3**<:starz:550571430610337794>";
-	    	msg1[2] = "${message.author} You'll get a **4**<:starz:550571430610337794>";
-		msg1[3] = "${message.author} :tada: You'll get a **5**<:starz:550571430610337794> :tada:"
+		msg1[1] = `${message.author} You'll get a **3**<:starz:550571430610337794>`;
+	    	msg1[2] = `${message.author} You'll get a **4**<:starz:550571430610337794>`;
+		msg1[3] = `${message.author} :tada: You'll get a **5**<:starz:550571430610337794> :tada:`
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
