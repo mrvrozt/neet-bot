@@ -20,7 +20,7 @@ console.log(`Logged in as ${client.user.tag}!`);
         game: {
             name: '「東京放課後サモナーズ」',
             type: "STREAMING",
-            url: "https://www.twitch.tv/monstercat"
+            url: "https://www.twitch.tv/東京放課後サモナーズ"
         }
     });
 	//setInterval(function(){
