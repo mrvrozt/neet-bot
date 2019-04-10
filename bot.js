@@ -242,7 +242,23 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 			msg.channel.send(msg2[2]);
 		}
 	}
-
+	
+	if (msg.content.toLowerCase().startsWith("bitchh")) {
+		var msg1 = Array(3);
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(`${message.author} My hole also smells great3`);
+		}
+		else{
+            	msg.channel.send(`${message.author} My hole also smells great2`);
+		}
+		}
+		else{ 
+		msg.channel.send(`${message.author} My hole also smells great1`);
+	}
+}
+	
 });
 
 
