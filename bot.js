@@ -247,7 +247,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		}
 	}
 	
-	if (msg.content.toLowerCase().startsWith("bitch")) {
+	if (msg.content.toLowerCase().includes("bitch")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
@@ -262,7 +262,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 	}
 }
 	
-	if (msg.content.toLowerCase().startsWith("asshole")) {
+	if (msg.content.toLowerCase().includes("asshole")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
@@ -277,7 +277,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 	}
 }	
 
-	if (msg.content.toLowerCase().startsWith("fuck")) {
+	if (msg.content.toLowerCase().includes("fuck")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
@@ -292,7 +292,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 	}
 }
 
-	if (msg.content.toLowerCase().startsWith("wtf")) {
+	if (msg.content.toLowerCase().includes("wtf")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
@@ -307,7 +307,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 	}
 }	
 
-	if (msg.content.toLowerCase().startsWith("trash")) {
+	if (msg.content.toLowerCase().includes("trash")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
