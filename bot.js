@@ -322,7 +322,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 	}
 }	
 
-	if (msg.content.toLowerCase().startsWith("shit")) {
+	if (msg.content.toLowerCase().includes("shit")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
