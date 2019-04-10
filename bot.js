@@ -127,9 +127,9 @@ client.on('message', message => {
 		message.channel.send("What so excited about that");
 	}
 
-	if (msg.includes(`BITCH`)){
-		message.channel.send("Uh-oh not cool bruh");
-	}
+	//if (msg.includes(`BITCH`)){
+	//	message.channel.send("Uh-oh not cool bruh");
+	//}
 
 	if (msg.includes(`ASSHOLE`)){
 		message.channel.send("My hole also smells great");
@@ -139,17 +139,16 @@ client.on('message', message => {
 
 client.on('message', msg => {
 	
-var sender = message.author;
+var sender = msg.author;	
 function getRandomInt(min, max) {
 min = Math.ceil(min);
 max = Math.floor(max);
-return Math.floor(Math.random() * (max - min)) + min;
-	}
+return Math.floor(Math.random() * (max - min)) + min; }
 	
 if (sender.id === `557942571238817802`){
-return;
-}
-
+		return;
+	}
+	
 if (msg.content.toLowerCase().startsWith(".8ball")) {
 	var msg1 = Array(5); 
 		msg1[1] = "Yes";
@@ -248,19 +247,19 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		}
 	}
 	
-	if (msg.content.toLowerCase().startsWith("bitchh")) {
+	if (msg.content.toLowerCase().startsWith("bitch")) {
 		var msg1 = Array(3);
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${message.author} My hole also smells great3`);
+		msg.channel.send(`${msg.author} Pong!1`);
 		}
 		else{
-            	msg.channel.send(`${message.author} My hole also smells great2`);
+            	msg.channel.send(`${msg.author} Pong!2`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${message.author} My hole also smells great1`);
+		msg.channel.send(`${msg.author} Pong!3`);
 	}
 }
 	
