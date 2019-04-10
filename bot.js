@@ -67,11 +67,11 @@ client.on('message', message => {
 		message.channel.send("<:thonkk:533178439646183429>");
 	}
 
-	if (msg.includes(`FUCK`)){
-		message.channel.send(`${message.author} No! bad person!`);
+	//if (msg.includes(`FUCK`)){
+	//	message.channel.send(`${message.author} No! bad person!`);
 		//message.delete();
 		//message.author.send(`The word **LETTUCE** is banned`)
-	}
+	//}
 
 
 	if (msg.includes(`.NEET`)){
@@ -87,9 +87,9 @@ client.on('message', message => {
 		message.channel.send( {files: ["./tsath/pinch.png"]});
 	}
 
-	if (msg.includes(`SHIT`)){
-		message.channel.send("EeWww!");
-	}
+	//if (msg.includes(`SHIT`)){
+	//	message.channel.send("EeWww!");
+	//}
 
 	if (msg.includes(`I'M SATISFIED`)){
 		message.channel.send(`${message.author} I'm happy for you :relaxed:`);
@@ -99,9 +99,9 @@ client.on('message', message => {
 		message.channel.send(`${message.author} <:luv:550567524320804875>`);
 	}
 
-	if (msg.includes(`TRASH`)){
-		message.channel.send("Hey don't say **TRASH**! :rage:");
-	}
+	//if (msg.includes(`TRASH`)){
+	//	message.channel.send("Hey don't say **TRASH**! :rage:");
+	//}
 
 	if (msg.includes(`.PING`)){
 		message.channel.send(`${message.author} Pong!`);
@@ -123,17 +123,17 @@ client.on('message', message => {
 		message.channel.send("Dong!");
 	}
 
-	if (msg.includes(`WTF`)){
-		message.channel.send("What so excited about that");
-	}
+	//if (msg.includes(`WTF`)){
+	//	message.channel.send("What so excited about that");
+	//}
 
 	//if (msg.includes(`BITCH`)){
 	//	message.channel.send("Uh-oh not cool bruh");
 	//}
 
-	if (msg.includes(`ASSHOLE`)){
-		message.channel.send("My hole also smells great");
-	}
+	//if (msg.includes(`ASSHOLE`)){
+	//	message.channel.send("My hole also smells great");
+	//}
 
 });
 
@@ -252,16 +252,96 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} Pong!1`);
+		msg.channel.send(`${msg.author} Uh-oh not cool bruh!`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Pong!2`);
+            	msg.channel.send(`${msg.author} Hey respek!`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Pong!3`);
+		msg.channel.send(`${msg.author} No, Don't say that!`);
 	}
 }
+	
+	if (msg.content.toLowerCase().startsWith("asshole")) {
+		var msg1 = Array(3);
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(`${msg.author} My hole also smells great!`);
+		}
+		else{
+            	msg.channel.send(`${msg.author} Jesus christ!`);
+		}
+		}
+		else{ 
+		msg.channel.send(`${msg.author} Oh dude, I like that hole!`);
+	}
+}	
+
+	if (msg.content.toLowerCase().startsWith("fuck")) {
+		var msg1 = Array(3);
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(`${msg.author} Yo, no F word!`);
+		}
+		else{
+            	msg.channel.send(`${msg.author} You know you can't say that on public, right?`);
+		}
+		}
+		else{ 
+		msg.channel.send(`${msg.author} Gerara here!`);
+	}
+}
+
+	if (msg.content.toLowerCase().startsWith("wtf")) {
+		var msg1 = Array(3);
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(`${msg.author} What so excited about that <:thonkk:533178439646183429>`);
+		}
+		else{
+            	msg.channel.send(`${msg.author} Is that spanish?`);
+		}
+		}
+		else{ 
+		msg.channel.send(`${msg.author} Nice story!`);
+	}
+}	
+
+	if (msg.content.toLowerCase().startsWith("trash")) {
+		var msg1 = Array(3);
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(`${msg.author} Hey don't say **TRASH**! :rage:`);
+		}
+		else{
+            	msg.channel.send(`${msg.author} You're **TRASH**! :rage:`);
+		}
+		}
+		else{ 
+		msg.channel.send(`${msg.author} No U :rage:`);
+	}
+}	
+
+	if (msg.content.toLowerCase().startsWith("shit")) {
+		var msg1 = Array(3);
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(`${msg.author} EeWww! :nauseated_face:`);
+		}
+		else{
+            	msg.channel.send(`${msg.author} Yo that's nasty! :nauseated_face:`);
+		}
+		}
+		else{ 
+		msg.channel.send(`${msg.author} Is that a poop? :nauseated_face:`);
+	}
+}	
 	
 });
 
