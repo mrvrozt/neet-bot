@@ -138,12 +138,17 @@ client.on('message', message => {
 });
 
 client.on('message', msg => {
-
+	
+var sender = message.author;
 function getRandomInt(min, max) {
 min = Math.ceil(min);
 max = Math.floor(max);
 return Math.floor(Math.random() * (max - min)) + min;
 	}
+	
+if (sender.id === `557942571238817802`){
+return;
+}
 
 if (msg.content.toLowerCase().startsWith(".8ball")) {
 	var msg1 = Array(5); 
