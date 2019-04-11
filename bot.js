@@ -122,6 +122,10 @@ client.on('message', message => {
 	if (msg.includes(`.DING`)){
 		message.channel.send("Dong!");
 	}
+	
+	if (msg.startsWith(`.PUNCH`)){
+		message.channel.send(`_**${msg.author.username}** punches **${user.username}**._`);
+	}
 
 	//if (msg.includes(`WTF`)){
 	//	message.channel.send("What so excited about that");
