@@ -225,6 +225,10 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		if (msg.content.toLowerCase().startsWith(".howgay")) {
 			msg.channel.send("You are "+ getRandomInt(1, 100)+"% gay :gay_pride_flag:");
 		}
+	
+		if (msg.content.toLowerCase().startsWith(".howgay @")) {
+			msg.channel.send("That person are "+ getRandomInt(1, 100)+"% gay :gay_pride_flag:");
+		}
 
 		if (msg.content.toLowerCase().startsWith(".howsmyluck")) {
 			msg.channel.send("Your luck is "+ getRandomInt(1, 100)+"%");
