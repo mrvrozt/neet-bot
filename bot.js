@@ -108,7 +108,7 @@ client.on('message', message => {
 	}
 
 	if (msg.includes(`.KISS`)){
-		message.channel.send(":kissing_closed_eyes:");
+		message.channel.send(`${message.author} :kissing_closed_eyes:`);
 	}
 
 	if (msg.includes(`.COFFEE`)){
