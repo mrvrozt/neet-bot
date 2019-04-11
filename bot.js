@@ -123,10 +123,6 @@ client.on('message', message => {
 		message.channel.send("Dong!");
 	}
 	
-	if (msg.startsWith(`.PUNCH`)){
-		message.channel.send(`_**${msg.author}** punches **${user}**._`);
-	}
-
 	//if (msg.includes(`WTF`)){
 	//	message.channel.send("What so excited about that");
 	//}
