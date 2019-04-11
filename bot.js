@@ -59,7 +59,7 @@ client.on('message', message => {
 		return;
 	}
 
-	if (msg.includes(`.HELP`)){
+	if (msg.startsWith(`.HELP`)){
 		message.channel.send(commandList);
 	}
 
@@ -74,7 +74,7 @@ client.on('message', message => {
 	//}
 
 
-	if (msg.includes(`.NEET`)){
+	if (msg.startsWith(`.NEET`)){
 		message.channel.send("Hey look it's me :grin:");
 		number = 30;
 		imageNumber = Math.floor (Math.random() * (number - 1 + 1)) + 1;
@@ -82,7 +82,7 @@ client.on('message', message => {
 		//message.channel.send({files: ["https://pbs.twimg.com/media/D2DtzaXX0AMhTKv.jpg"]});
 	}
 
-	if (msg.includes(`.PINCH`)){
+	if (msg.startsWith(`.PINCH`)){
 		message.channel.send(":blush:");
 		message.channel.send( {files: ["./tsath/pinch.png"]});
 	}
@@ -103,23 +103,23 @@ client.on('message', message => {
 	//	message.channel.send("Hey don't say **TRASH**! :rage:");
 	//}
 
-	if (msg.includes(`.PING`)){
+	if (msg.startsWith(`.PING`)){
 		message.channel.send(`${message.author} Pong!`);
 	}
 
-	if (msg.includes(`.KISS`)){
+	if (msg.startsWith(`.KISS`)){
 		message.channel.send(`${message.author} :kissing_closed_eyes:`);
 	}
 
-	if (msg.includes(`.COFFEE`)){
+	if (msg.startsWith(`.COFFEE`)){
 		message.channel.send(":coffee:");
 	}
 
-	if (msg.includes(`.TEA`)){
+	if (msg.startsWith(`.TEA`)){
 		message.channel.send(":tea:");
 	}
 
-	if (msg.includes(`.DING`)){
+	if (msg.startsWith(`.DING`)){
 		message.channel.send("Dong!");
 	}
 	
