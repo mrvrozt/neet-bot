@@ -86,6 +86,11 @@ client.on('message', message => {
 		message.channel.send(":blush:");
 		message.channel.send( {files: ["./tsath/pinch.png"]});
 	}
+	
+	if (msg.includes(`BRAVO`) + (`CONGRATS`)){
+		message.channel.send(":clap:");
+		message.channel.send( {files: ["./tsath/clap.png"]});
+	}
 
 	//if (msg.includes(`SHIT`)){
 	//	message.channel.send("EeWww!");
@@ -340,16 +345,11 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
       	if (msg.content.toLowerCase().startsWith(".f")) { 
         	var x = getRandomInt(0, 8);
 		if (x < 4){
-			msg.channel.send(`**F**`);
+		msg.channel.send(`**F**`);
 		}
 		else{
-			msg.channel.send(`Press **F** to Pay Respects`);
-		}
+		msg.channel.send(`Press **F** to Pay Respects`);
 	}
-	
-	if (msg.content.toLowerCase().includes(":clap:")) {
-        	msg.channel.send(":clap:");
-		msg.channel.send( {files: ["./tsath/clap.png"]});
 }	
 	
 });
