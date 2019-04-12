@@ -87,7 +87,7 @@ client.on('message', message => {
 		message.channel.send( {files: ["./tsath/pinch.png"]});
 	}
 	
-	if (msg.includes(`CONGRATS`,`BRAVO`)){
+	if (msg.includes("CONGRATS","BRAVO")){
 		message.channel.send(":clap: :clap: :clap:");
 		message.channel.send( {files: ["./tsath/clap.png"]});
 	}
