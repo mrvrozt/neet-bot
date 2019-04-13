@@ -75,7 +75,7 @@ client.on('message', message => {
 
 
 	if (msg.startsWith(`.NEET`)){
-		message.channel.send("Hey look it's me :grin:");
+		message.channel.send(`${message.author} Hey look it's me :grin:`);
 		number = 30;
 		imageNumber = Math.floor (Math.random() * (number - 1 + 1)) + 1;
 		message.channel.send( {files: ["./tsath/" + imageNumber + ".jpg"]});
@@ -83,7 +83,7 @@ client.on('message', message => {
 	}
 
 	if (msg.startsWith(`.PINCH`)){
-		message.channel.send(":blush:");
+		message.channel.send(`${message.author} :blush:`);
 		message.channel.send( {files: ["./tsath/pinch.png"]});
 	}
 	
