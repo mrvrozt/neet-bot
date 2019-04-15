@@ -159,7 +159,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		msg1[1] = "Yes";
 	    	msg1[2] = "No";
 		msg1[3] = "Maybe :wink:";
-		msg1[4] = "Without a doubt.";
+		msg1[4] = "Without a doubt";
 		msg1[5] = "I honestly have no idea :neutral_face:"
 		msg1[6] = "Highly unlikely" 
         var x = getRandomInt(0, 20);
@@ -224,15 +224,15 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 }
 
 		if (msg.content.toLowerCase().startsWith(".rate")) {
-				msg.channel.send("I'd rate this "+ getRandomInt(1, 10)+"/10");
+			msg.channel.send("I'd rate this "+ getRandomInt(1, 10)+"/10");
 		}
 
 		if (msg.content.toLowerCase().startsWith(".howgay")) {
-			msg.channel.send("You are "+ getRandomInt(1, 100)+"% gay :gay_pride_flag:");
+			msg.channel.send(`${msg.author} You are `+ getRandomInt(1, 100)+"% gay :gay_pride_flag:");
 		}
 
 		if (msg.content.toLowerCase().startsWith(".howsmyluck")) {
-			msg.channel.send("Your luck is "+ getRandomInt(1, 100)+"%");
+			msg.channel.send(`${msg.author} Your luck is `+ getRandomInt(1, 100)+"%");
 		}
 
 		//if (msg.content.toLowerCase().startsWith(".stp")) {
