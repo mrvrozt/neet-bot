@@ -19,7 +19,7 @@ console.log(`Logged in as ${client.user.tag}!`);
     client.user.setPresence({
         game: {
             //name: '「東京放課後サモナーズ」',
-	    name: 'Sekiro™: Shadows Die Twice',
+	    name: 'Pokémon Sword and Shield',
             type: "STREAMING",
 	    //url: "https://www.twitch.tv/東京放課後サモナーズ"
             url: "https://www.twitch.tv/NeetFTW"
