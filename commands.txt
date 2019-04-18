@@ -12,8 +12,8 @@ __(Here, take a cup of coffee)__
 __(Same thing as above)__
 **.8ball**
 __(If you're not sure what to do)__
-**.rps**
-__(Rock,Paper,Scissor)__
+**.ftd**
+__(Fire,Wood,Water)__
 **.rate**
 __(I'd rate anything you want)__
 **.howgay**
@@ -24,6 +24,8 @@ __(Test your luck)__
 __(You already know what it is)__
 **.stp**
 __(Let me guess which rarity you'll get)__
+**.f**
+__(F)__
 
 **.ping**
 **.ding**
