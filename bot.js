@@ -64,7 +64,11 @@ client.on('message', message => {
 	}
 
 	if (msg.includes(`:THONKK:`)){
-		message.channel.send("<:thonkk:533178439646183429>");
+		message.channel.send("<:thonkk:533178439646183429>:thought_balloon:");
+	}
+	
+	if (msg.includes(`:MEH:`)){
+		message.channel.send("<:meh:499959464770666547>:zzz:");
 	}
 
 	//if (msg.includes(`FUCK`)){
@@ -186,7 +190,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		}
 }
 
-	if (msg.content.toLowerCase().startsWith(".frw")) {
+	if (msg.content.toLowerCase().startsWith(".ftd")) {
 		var msg1 = Array(3);
 		msg1[1] = "Fire :fire:";
 	    	msg1[2] = "Water :droplet:";
