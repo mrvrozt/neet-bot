@@ -159,16 +159,16 @@ if (sender.id === `557942571238817802`){
 	}
 	
 if (msg.content.toLowerCase().startsWith(".8ball")) {
-	var msg1 = Array(5); 
+		var msg1 = Array(5); 
 		msg1[1] = "Yes";
 	    	msg1[2] = "No";
 		msg1[3] = "Maybe :wink:";
 		msg1[4] = "Without a doubt";
 		msg1[5] = "I honestly have no idea :neutral_face:"
 		msg1[6] = "Highly unlikely" 
-        var x = getRandomInt(0, 20);
+        	var x = getRandomInt(0, 20);
 		if (x < 5){ 
-        if (x < 3){
+        	if (x < 3){
 		msg.channel.send(msg1[1]);
 		}
 		else {
@@ -219,11 +219,11 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		msg.channel.send(msg1[1]);
 		}
 		else{
-            	msg.channel.send(msg1[3]);
+            	msg.channel.send(msg1[2]);
 		}
 		}
 		else{ 
-		msg.channel.send(msg1[2]);
+		msg.channel.send(msg1[3]);
 	}
 }
 
