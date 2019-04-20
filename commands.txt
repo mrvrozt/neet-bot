@@ -12,7 +12,7 @@ __(Here, take a cup of coffee)__
 __(Same thing as above)__
 **.8ball**
 __(If you're not sure what to do)__
-**.ftd**
+**.rtd**
 __(Fire,Wood,Water)__
 **.rate**
 __(I'd rate anything you want)__
