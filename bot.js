@@ -214,8 +214,8 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 	    	msg1[2] = `${msg.author} You'll get a **4**<:starz:550571430610337794>`;
 		msg1[3] = `${msg.author} :tada: You'll get a **5**<:starz:550571430610337794> :tada:`
         	var x = getRandomInt(0, 9);
-		if (x < 6){
-        	if (x < 3){
+		if (x < 8){
+        	if (x < 7){
 		msg.channel.send(msg1[1]);
 		}
 		else{
