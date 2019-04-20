@@ -190,7 +190,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		}
 }
 
-	if (msg.content.toLowerCase().startsWith(".ftd")) {
+	if (msg.content.toLowerCase().startsWith(".rtd")) {
 		var msg1 = Array(3);
 		msg1[1] = "Fire :fire:";
 	    	msg1[2] = "Water :droplet:";
