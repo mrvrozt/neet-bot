@@ -236,7 +236,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		}
 
 		if (msg.content.toLowerCase().startsWith(".howsmyluck")) {
-			msg.channel.send(`${msg.author} Your luck is `+ getRandomInt(1, 100)+"%");
+			msg.channel.send(`${msg.author} Your luck is `+ getRandomInt(1, 100)+"% :four_leaf_clover:");
 		}
 
 		//if (msg.content.toLowerCase().startsWith(".stp")) {
