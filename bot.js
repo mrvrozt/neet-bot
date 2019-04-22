@@ -297,7 +297,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Do me a favor please, gerara here!`);
+		msg.channel.send(`${msg.author} Ummmm what?`);
 	}
 }
 
