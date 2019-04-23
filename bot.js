@@ -70,6 +70,10 @@ client.on('message', message => {
 	if (msg.includes(`:MEH:`)){
 		message.channel.send("<:meh:499959464770666547>:zzz:");
 	}
+	
+	if (msg.includes(`:RELAXD:`)){
+		message.channel.send("<:relaxd:570368847849193483>:dash:");
+	}
 
 	//if (msg.includes(`FUCK`)){
 	//	message.channel.send(`${message.author} No! bad person!`);
