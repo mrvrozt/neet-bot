@@ -20,11 +20,10 @@ console.log(`Logged in as ${client.user.tag}!`);
         game: {
             //name: '「東京放課後サモナーズ」',
 	    name: 'Ueno Fluffy Dream Kingdom (Nightmare)',
-	    name: 'Tokyo Afterschool Summoners',
-            //type: "STREAMING",
-	    type: "PLAYING"
+	    //name: 'Tokyo Afterschool Summoners',
+            type: "STREAMING",
 	    //url: "https://www.twitch.tv/東京放課後サモナーズ"
-            //url: "https://www.twitch.tv/NeetFTW"
+            url: "https://www.twitch.tv/NeetFTW"
         }
     });
 	//setInterval(function(){
