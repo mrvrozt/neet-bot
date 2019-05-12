@@ -19,7 +19,7 @@ console.log(`Logged in as ${client.user.tag}!`);
     client.user.setPresence({
         game: {
             //name: '「東京放課後サモナーズ」',
-	    name: 'Ueno Fluffy Dream Kingdom (Nightmare)',
+	    name: 'with Twitch thots',
 	    //name: 'Tokyo Afterschool Summoners',
             type: "STREAMING",
 	    //url: "https://www.twitch.tv/東京放課後サモナーズ"
