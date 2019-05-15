@@ -118,7 +118,7 @@ client.on('message', message => {
 	//}
 
 	if (msg.startsWith(`.PING`)){
-		message.channel.send(`${message.author} Pong!` + Math.round(client.ping) + ` ms!`);
+		message.channel.send(`${message.author} Pong! :ping_pong: ` + Math.round(client.ping) + ` ms!`);
 		//message.channel.send(`${message.author} Pong!`);
 	}
 
@@ -135,7 +135,7 @@ client.on('message', message => {
 	}
 
 	if (msg.startsWith(`.DING`)){
-		message.channel.send("Dong!");
+		message.channel.send("Dong! :eggplant:");
 	}
 	
 	//if (msg.includes(`WTF`)){
