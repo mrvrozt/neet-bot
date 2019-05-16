@@ -119,7 +119,7 @@ client.on('message', message => {
 
 	if (msg.startsWith(`.PING`)){
 		message.channel.send(`${message.author} Pong! :ping_pong: ` + Math.round(client.ping) + ` ms!`);
-		//message.channel.send(`${message.author} Pong!`);
+		//message.channel.send(`${message.author} Pong! `);
 	}
 
 	if (msg.startsWith(`.KISS`)){
