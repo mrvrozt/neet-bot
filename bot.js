@@ -17,15 +17,15 @@ console.log(`Logged in as ${client.user.tag}!`);
         //status: 'idle'
     //})
     //client.user.setStatus('idle')
-    //client.user.setPresence({
-        //game: {
-            //name: '「東京放課後サモナーズ」',
+    client.user.setPresence({
+        game: {
+            name: '「東京放課後サモナーズ」',
 	    //name: 'Tokyo Afterschool Summoners',
-            //type: "STREAMING",
+            type: "STREAMING",
 	    //url: "https://www.twitch.tv/東京放課後サモナーズ"
-            //url: "https://www.twitch.tv/NeetFTW"
-        //}
-    //});
+            url: "https://www.twitch.tv/NeetFTW"
+        }
+    });
 	//setInterval(function(){
 		//let status = statuses[Math.floor(Math.random()*statuses.length)];
 		//client.user.setPresence({ game: { name: status }, status: 'online' });
@@ -33,7 +33,7 @@ console.log(`Logged in as ${client.user.tag}!`);
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'ONLINE'});
 	//}, 10000);
 //client.user.setActivity("TV", {type: "Watching"})
-client.user.setActivity("with Bobbo", {type: "Sleeping"})
+//client.user.setActivity("with Bobbo", {type: "Sleeping"})
 //client.user.setActivity("Nintendo Switch")
 //client.user.setActivity("with my dick")
 //client.user.setActivity("with Bobbo")
