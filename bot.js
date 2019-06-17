@@ -3,9 +3,14 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 //const activities_list = ["Playing", "Watching"];
 
-let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
+//let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
 //let statuses = ["Hentai", "Pornhub", "my Penis Grow", "Gay Porn", "Someone Jerk Off"]; //Status for Watching
-//let statuses = ["as a person with plump", "as a person with round", "as a person with chunky", "as a person with fleshy"];
+const activities_list = [
+    "with the &help command.", 
+    "with the developers console",
+    "with some code", 
+    "with JavaScript"
+    ];
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
@@ -27,9 +32,11 @@ console.log(`Logged in as ${client.user.tag}!`);
         //}
     //});
 	setInterval(function(){
-		let status = statuses[Math.floor(Math.random()*statuses.length)];
+		const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
+		client.user.setActivity(activities_list[index]);
+		//let status = statuses[Math.floor(Math.random()*statuses.length)];
 		//client.user.setPresence({ game: { name: status }, status: 'online' });
-		client.user.setPresence({ activity: { name: status }, status: 'online' });
+		//client.user.setPresence({ activity: { name: status }, status: 'online' });
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'ONLINE'});
 	}, 10000);
 //client.user.setActivity("TV", {type: "Watching"})
