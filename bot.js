@@ -53,7 +53,7 @@ console.log(`Logged in as ${client.user.tag}!`);
 		//client.user.setPresence({ game: { name: status }, status: 'online' });
 		client.user.setPresence({ activity: { name: status }, status: 'online' });
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'ONLINE'});
-	}, 20000);
+	}, 12000);
 //client.user.setActivity("TV", {type: "Watching"})
 //client.user.setActivity("with Bobbo", {type: "Sleeping"})
 //client.user.setActivity("Nintendo Switch")
