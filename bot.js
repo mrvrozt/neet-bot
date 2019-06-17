@@ -42,7 +42,7 @@ console.log(`Logged in as ${client.user.tag}!`);
     client.user.setPresence({
         game: {
             //name: '「東京放課後サモナーズ」',
-	    name: 'Tokyo Afterschool Summoners',
+	    //name: 'Tokyo Afterschool Summoners',
 	    name: 'as a person w/ Heavily Built',
             //type: "STREAMING",
 	    type: "PLAYING",
