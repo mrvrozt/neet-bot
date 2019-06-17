@@ -5,12 +5,7 @@ const client = new Discord.Client();
 
 //let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
 //let statuses = ["Hentai", "Pornhub", "my Penis Grow", "Gay Porn", "Someone Jerk Off"]; //Status for Watching
-const activities_list = [
-    "with the &help command.", 
-    "with the developers console",
-    "with some code", 
-    "with JavaScript"
-    ];
+
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
@@ -31,16 +26,14 @@ console.log(`Logged in as ${client.user.tag}!`);
             //url: "https://www.twitch.tv/NeetFTW"
         //}
     //});
-	setInterval(function(){
-		const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
-		client.user.setActivity(activities_list[index]);
+	//setInterval(function(){
 		//let status = statuses[Math.floor(Math.random()*statuses.length)];
 		//client.user.setPresence({ game: { name: status }, status: 'online' });
 		//client.user.setPresence({ activity: { name: status }, status: 'online' });
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'ONLINE'});
-	}, 10000);
+	//}, 10000);
 //client.user.setActivity("TV", {type: "Watching"})
-//client.user.setActivity("with Bobbo", {type: "Sleeping"})
+client.user.setActivity("with Bobbo", {type: "Sleeping"})
 //client.user.setActivity("Nintendo Switch")
 //client.user.setActivity("with my dick")
 //client.user.setActivity("with Bobbo")
