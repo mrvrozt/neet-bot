@@ -28,7 +28,8 @@ console.log(`Logged in as ${client.user.tag}!`);
     //});
 	setInterval(function(){
 		let status = statuses[Math.floor(Math.random()*statuses.length)];
-		client.user.setPresence({ game: { name: status }, status: 'online' });
+		//client.user.setPresence({ game: { name: status }, status: 'online' });
+		client.user.setPresence({ activity: { name: status }, status: 'online' });
 		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'ONLINE'});
 	}, 10000);
 //client.user.setActivity("TV", {type: "Watching"})
