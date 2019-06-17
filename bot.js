@@ -3,9 +3,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 //const activities_list = ["Playing", "Watching"];
 
-//let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
+let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
 //let statuses = ["Hentai", "Pornhub", "my Penis Grow", "Gay Porn", "Someone Jerk Off"]; //Status for Watching
-let statuses = ["as a person with plump", "as a person with round", "as a person with chunky", "as a person with fleshy"];
+//let statuses = ["as a person with plump", "as a person with round", "as a person with chunky", "as a person with fleshy"];
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
