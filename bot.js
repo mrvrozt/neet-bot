@@ -5,6 +5,31 @@ const client = new Discord.Client();
 
 //let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
 //let statuses = ["Hentai", "Pornhub", "my Penis Grow", "Gay Porn", "Someone Jerk Off"]; //Status for Watching
+let statuses = [
+"as a person with plump", 
+"as a person with round", 
+"as a person with chunky", 
+"as a person with fleshy", 
+"as a person with paunchy", 
+"as a person with corpulent", 
+"as a person with buxom", 
+"as a person with burly", 
+"as a person with bulky", 
+"as a person with hefty", 
+"as a person with meaty", 
+"as a person with heavily built", 
+"as a person with solidly built", 
+"as a person with thickset", 
+"as a person with heavyset", 
+"as a person with sturdy", 
+"as a person with well built", 
+"as a person with hulking", 
+"as a person with tubby", 
+"as a person with pudgy", 
+"as a person with beefy", 
+"as a person with poddy", 
+"as a person with fubsy", 
+];
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
@@ -15,24 +40,20 @@ console.log(`Logged in as ${client.user.tag}!`);
         //},
         //status: 'idle'
     //})
-    client.user.setStatus('idle')
-    client.user.setPresence({
-        game: {
+    //client.user.setStatus('idle')
+    //client.user.setPresence({
+        //game: {
             //name: '「東京放課後サモナーズ」',
-	    name: 'of a person with plump,round,chunky,fleshy,paunchy,corpulent,buxom,burly,bulky,hefty,meaty,heavily built,solidly built,thickset,heavyset,sturdy,well built,hulking,tubby,pudgy,beefy,poddy,fubsy',
 	    //name: 'Tokyo Afterschool Summoners',
-            type: "STREAMING",
+            //type: "STREAMING",
 	    //url: "https://www.twitch.tv/東京放課後サモナーズ"
-            url: "https://www.twitch.tv/NeetFTW"
-        }
-    });
-	//setInterval(function(){
-		//let status = statuses[Math.floor(Math.random()*statuses.length)];
-		//client.user.setPresence({ game: { name: status, type: 'STREAMING' }, status: 'IDLE'});
-		//client.user.setPresence({ game: { name: status, type: 'LISTENING' }, status: 'IDLE'});
-		//client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'IDLE'});
-		//client.user.setPresence({ game: { name: status, type: 'WATCHING' }, status: 'IDLE'});
-	//}, 20000);
+            //url: "https://www.twitch.tv/NeetFTW"
+        //}
+    //});
+	setInterval(function(){
+		let status = statuses[Math.floor(Math.random()*statuses.length)];
+		client.user.setPresence({ game: { name: status, type: 'PLAYING' }, status: 'ONLINE'});
+	}, 10000);
 //client.user.setActivity("TV", {type: "Watching"})
 //client.user.setActivity("with Bobbo", {type: "Sleeping"})
 //client.user.setActivity("Nintendo Switch")
