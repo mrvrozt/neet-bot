@@ -5,11 +5,7 @@ const client = new Discord.Client();
 
 //let statuses = ["with Bobbo's Penis", "with Steve and Pokie", "Nintendo Switch", "Playstation 4", "Steam", "XBOX One", "with Himself", "with His Slime"]; //Status for Playing
 //let statuses = ["Hentai", "Pornhub", "my Penis Grow", "Gay Porn", "Someone Jerk Off"]; //Status for Watching
-let statuses = [
-"as a person with plump", 
-"as a person with round", 
-"as a person with chunky", 
-"as a person with fleshy", 
+let statuses = ["as a person with plump", "as a person with round", "as a person with chunky", "as a person with fleshy", 
 "as a person with paunchy", 
 "as a person with corpulent", 
 "as a person with buxom", 
@@ -28,8 +24,7 @@ let statuses = [
 "as a person with pudgy", 
 "as a person with beefy", 
 "as a person with poddy", 
-"as a person with fubsy", 
-];
+"as a person with fubsy"];
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
