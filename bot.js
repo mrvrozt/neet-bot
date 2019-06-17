@@ -137,6 +137,10 @@ client.on('message', message => {
 	if (msg.includes(`I'M SO SATISFIED`)){
 		message.channel.send(`${message.author} <:luv:550567524320804875>`);
 	}
+	
+	if (msg.includes(`HATE U TSATH`)){
+		message.channel.send(`${message.author} :middle_finger:`);
+	}
 
 	//if (msg.includes(`TRASH`)){
 	//	message.channel.send("Hey don't say **TRASH**! :rage:");
