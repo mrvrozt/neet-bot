@@ -123,7 +123,6 @@ client.on('message', message => {
 	
 	if (msg.includes(`CONGRATS`)){
 		message.channel.send(":clap: :clap: :clap:");
-		message.channel.send( {files: ["./tsath/clap.png"]});
 	}
 
 	//if (msg.includes(`SHIT`)){
