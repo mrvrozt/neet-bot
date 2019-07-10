@@ -129,12 +129,12 @@ client.on('message', message => {
 	//	message.channel.send("EeWww!");
 	//}
 
-	if (msg.includes(`OOF`)){
+	if (msg.includes(`.OOF`)){
 		message.channel.send(`<:oof:598338675511918593>`);
 	}
 	
 	if (msg.includes(`I'M SATISFIED`)){
-		message.channel.send(`${message.author} I'm happy for you :relaxed:`);
+		message.channel.send(`${message.author} I'm happy for you *aru*! :relaxed:`);
 	}
 
 	if (msg.includes(`I'M SO SATISFIED`)){
@@ -146,7 +146,7 @@ client.on('message', message => {
 	//}
 
 	if (msg.startsWith(`.PING`)){
-		message.channel.send(`${message.author} Pong! :ping_pong: ` + Math.round(client.ping) + ` ms!`);
+		message.channel.send(`${message.author} Pong! *aru*! :ping_pong: ` + Math.round(client.ping) + ` ms!`);
 		//message.channel.send(`${message.author} Pong! `);
 	}
 
@@ -163,7 +163,7 @@ client.on('message', message => {
 	}
 
 	if (msg.startsWith(`.DING`)){
-		message.channel.send("Dong! :eggplant:");
+		message.channel.send("Dong! *aru*! :eggplant:");
 	}
 	
 	//if (msg.includes(`WTF`)){
@@ -194,12 +194,12 @@ if (sender.id === `557942571238817802`){
 	
 if (msg.content.toLowerCase().startsWith(".8ball")) {
 		var msg1 = Array(5); 
-		msg1[1] = "Yes";
-	    	msg1[2] = "No";
-		msg1[3] = "Maybe :wink:";
-		msg1[4] = "Without a doubt";
-		msg1[5] = "I honestly have no idea :neutral_face:"
-		msg1[6] = "Highly unlikely" 
+		msg1[1] = "Yes *aru*!";
+	    	msg1[2] = "No *aru*!";
+		msg1[3] = "Maybe *aru*! :wink:";
+		msg1[4] = "Without a doubt *aru*!";
+		msg1[5] = "I honestly have no idea *aru*! :neutral_face:"
+		msg1[6] = "Highly unlikely *aru*!" 
         	var x = getRandomInt(0, 20);
 		if (x < 5){ 
         	if (x < 3){
@@ -324,14 +324,14 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} Yo, no F word!`);
+		msg.channel.send(`${msg.author} Hey chill!`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} You know you can't say that on public, right?`);
+            	msg.channel.send(`${msg.author} Can you not?`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Ummmm what?`);
+		msg.channel.send(`${msg.author} Okay what?`);
 	}
 }
 
