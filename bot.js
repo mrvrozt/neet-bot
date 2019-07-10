@@ -129,6 +129,10 @@ client.on('message', message => {
 	//	message.channel.send("EeWww!");
 	//}
 
+	if (msg.includes(`OOF`)){
+		message.channel.send(`<:oof:598338675511918593>`);
+	}
+	
 	if (msg.includes(`I'M SATISFIED`)){
 		message.channel.send(`${message.author} I'm happy for you :relaxed:`);
 	}
