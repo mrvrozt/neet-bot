@@ -43,7 +43,8 @@ console.log(`Logged in as ${client.user.tag}!`);
         game: {
             //name: '「東京放課後サモナーズ」',
 	    //name: 'Tokyo Afterschool Summoners',
-	    name: 'Chunky/Burly/Hefty/Tubby/Beefy',
+	    name: 'Seaside Fashionista',
+	    //name: 'Chunky/Burly/Hefty/Tubby/Beefy',
             type: "STREAMING",
 	    //type: "PLAYING",
 	    //type: "LISTENING",
@@ -90,15 +91,15 @@ client.on('message', message => {
 	}
 
 	if (msg.includes(`:THONKK:`)){
-		message.channel.send("<:thonkk:533178439646183429>:thought_balloon:");
+		message.channel.send("<:huuh:598368148390936577>");
 	}
 	
 	if (msg.includes(`:MEH:`)){
-		message.channel.send("<:meh:499959464770666547>:zzz:");
+		message.channel.send("<:huuh:598368148390936577>");
 	}
 	
 	if (msg.includes(`:RELAXD:`)){
-		message.channel.send("<:relaxd:570368847849193483>:dash:");
+		message.channel.send("<:huuh:598368148390936577>");
 	}
 
 	//if (msg.includes(`FUCK`)){
