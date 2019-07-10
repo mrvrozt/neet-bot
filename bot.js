@@ -91,15 +91,15 @@ client.on('message', message => {
 	}
 
 	if (msg.includes(`:THONKK:`)){
-		message.channel.send("<:huuh:598368148390936577>");
+		message.channel.send("<:huuh:598368148390936577> :thought_balloon:");
 	}
 	
 	if (msg.includes(`:MEH:`)){
-		message.channel.send("<:huuh:598368148390936577>");
+		message.channel.send("<:mmeh:598373436141862953>");
 	}
 	
 	if (msg.includes(`:RELAXD:`)){
-		message.channel.send("<:huuh:598368148390936577>");
+		message.channel.send("<:rlxdd:598375815130120202>");
 	}
 
 	//if (msg.includes(`FUCK`)){
