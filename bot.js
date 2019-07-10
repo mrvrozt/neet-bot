@@ -147,7 +147,7 @@ client.on('message', message => {
 	//}
 
 	if (msg.startsWith(`.PING`)){
-		message.channel.send(`${message.author} Pong! *aru*! :ping_pong: ` + Math.round(client.ping) + ` ms!`);
+		message.channel.send(`${message.author} Pong *aru*! :ping_pong: ` + Math.round(client.ping) + ` ms!`);
 		//message.channel.send(`${message.author} Pong! `);
 	}
 
@@ -164,7 +164,7 @@ client.on('message', message => {
 	}
 
 	if (msg.startsWith(`.DING`)){
-		message.channel.send("Dong! *aru*! :eggplant:");
+		message.channel.send("Dong *aru*! :eggplant:");
 	}
 	
 	//if (msg.includes(`WTF`)){
@@ -302,7 +302,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} No, Don't say that! *aru*!`);
+		msg.channel.send(`${msg.author} No, Don't say that *aru*!`);
 	}
 }
 	
@@ -310,14 +310,14 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} My hole also smells great! *aru*!`);
+		msg.channel.send(`${msg.author} My hole also smells great *aru*!`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Jesus christ! *aru*!`);
+            	msg.channel.send(`${msg.author} Did you smell that *aru*?`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Oh dude, I like that hole! *aru*!`);
+		msg.channel.send(`${msg.author} Oh dude, I like that hole *aru*!`);
 	}
 }	
 
@@ -325,14 +325,14 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} Hey chill! *aru*!`);
+		msg.channel.send(`${msg.author} Hey chill *aru*!`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Can you not? *aru*!`);
+            	msg.channel.send(`${msg.author} Can you not *aru*?`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Okay what? *aru*!`);
+		msg.channel.send(`${msg.author} Yamete *aru*!`);
 	}
 }
 
@@ -343,11 +343,11 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		msg.channel.send(`${msg.author} What so excited about that *aru*! <:thonkk:533178439646183429>`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Is that spanish? *aru*!`);
+            	msg.channel.send(`${msg.author} Is that spanish *aru*?`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Nice story! *aru*!`);
+		msg.channel.send(`${msg.author} Nice story *aru*!`);
 	}
 }	
 
@@ -355,10 +355,10 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} Hey don't say **TRASH**! *aru*! :rage:`);
+		msg.channel.send(`${msg.author} Hey don't say **TRASH** *aru*! :rage:`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} You're **TRASH**! *aru*! :rage:`);
+            	msg.channel.send(`${msg.author} You're **TRASH** *aru*! :rage:`);
 		}
 		}
 		else{ 
@@ -373,11 +373,11 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 		msg.channel.send(`${msg.author} Yame-yame *aru*! :nauseated_face:`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Yo that's nasty! *aru*! :nauseated_face:`);
+            	msg.channel.send(`${msg.author} Yo that's nasty *aru*! :nauseated_face:`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Is that a poop? *aru*! :nauseated_face:`);
+		msg.channel.send(`${msg.author} Is that a poop *aru*? :nauseated_face:`);
 	}
 }	
 	
