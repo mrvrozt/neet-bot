@@ -226,9 +226,9 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 
 	if (msg.content.toLowerCase().startsWith(".rtd")) {
 		var msg1 = Array(3);
-		msg1[1] = "Fire :fire:";
-	    	msg1[2] = "Water :droplet:";
-		msg1[3] = "Wood :seedling:"
+		msg1[1] = "Fire *aru*! :fire:";
+	    	msg1[2] = "Water *aru*! :droplet:";
+		msg1[3] = "Wood *aru*! :seedling:"
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
@@ -244,9 +244,9 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 }
 	if (msg.content.toLowerCase().startsWith(".stp")) {
 		var msg1 = Array(3);
-		msg1[1] = `${msg.author} You'll get a **3**<:starz:550571430610337794>`;
-	    	msg1[2] = `${msg.author} You'll get a **4**<:starz:550571430610337794>`;
-		msg1[3] = `${msg.author} :tada: You'll get a **5**<:starz:550571430610337794> :tada:`
+		msg1[1] = `${msg.author} You'll get a **3**<:starz:550571430610337794> *aru*!`;
+	    	msg1[2] = `${msg.author} You'll get a **4**<:starz:550571430610337794> *aru*!`;
+		msg1[3] = `${msg.author} :tada: You'll get a **5**<:starz:550571430610337794> *aru*! :tada:`
         	var x = getRandomInt(0, 9);
 		if (x < 8){
         	if (x < 7){
@@ -262,15 +262,15 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 }
 
 		if (msg.content.toLowerCase().startsWith(".rate")) {
-			msg.channel.send("I'd rate this "+ getRandomInt(1, 10)+"/10");
+			msg.channel.send("I'd rate this "+ getRandomInt(1, 10)+"/10 *aru*!");
 		}
 
 		if (msg.content.toLowerCase().startsWith(".howgay")) {
-			msg.channel.send(`${msg.author} You are `+ getRandomInt(1, 100)+"% gay :gay_pride_flag:");
+			msg.channel.send(`${msg.author} You are `+ getRandomInt(1, 100)+"% gay *aru*! :gay_pride_flag:");
 		}
 
 		if (msg.content.toLowerCase().startsWith(".howsmyluck")) {
-			msg.channel.send(`${msg.author} Your luck is `+ getRandomInt(1, 100)+"% :four_leaf_clover:");
+			msg.channel.send(`${msg.author} Your luck is `+ getRandomInt(1, 100)+"% *aru*! :four_leaf_clover:");
 		}
 
 		//if (msg.content.toLowerCase().startsWith(".stp")) {
@@ -279,8 +279,8 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 
       	if (msg.content.toLowerCase().startsWith(".coinflip")) { 
 		var msg2 = Array(2);
-		msg2[1] = "Heads";
-	    	msg2[2] = "Tails";
+		msg2[1] = "Heads *aru*!";
+	    	msg2[2] = "Tails *aru*!";
         	var x = getRandomInt(0, 8);
 		if (x < 4){
 			msg.channel.send(msg2[1]);
@@ -294,14 +294,14 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} Uh-oh not cool bruh!`);
+		msg.channel.send(`${msg.author} Not cool *aru*!`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Hey respek!`);
+            	msg.channel.send(`${msg.author} Disrespect *aru*!`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} No, Don't say that!`);
+		msg.channel.send(`${msg.author} No, Don't say that! *aru*!`);
 	}
 }
 	
@@ -309,14 +309,14 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} My hole also smells great!`);
+		msg.channel.send(`${msg.author} My hole also smells great! *aru*!`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Jesus christ!`);
+            	msg.channel.send(`${msg.author} Jesus christ! *aru*!`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Oh dude, I like that hole!`);
+		msg.channel.send(`${msg.author} Oh dude, I like that hole! *aru*!`);
 	}
 }	
 
@@ -324,14 +324,14 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} Hey chill!`);
+		msg.channel.send(`${msg.author} Hey chill! *aru*!`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Can you not?`);
+            	msg.channel.send(`${msg.author} Can you not? *aru*!`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Okay what?`);
+		msg.channel.send(`${msg.author} Okay what? *aru*!`);
 	}
 }
 
@@ -339,14 +339,14 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} What so excited about that <:thonkk:533178439646183429>`);
+		msg.channel.send(`${msg.author} What so excited about that *aru*! <:thonkk:533178439646183429>`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Is that spanish?`);
+            	msg.channel.send(`${msg.author} Is that spanish? *aru*!`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Nice story!`);
+		msg.channel.send(`${msg.author} Nice story! *aru*!`);
 	}
 }	
 
@@ -354,14 +354,14 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} Hey don't say **TRASH**! :rage:`);
+		msg.channel.send(`${msg.author} Hey don't say **TRASH**! *aru*! :rage:`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} You're **TRASH**! :rage:`);
+            	msg.channel.send(`${msg.author} You're **TRASH**! *aru*! :rage:`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} No U :rage:`);
+		msg.channel.send(`${msg.author} No U *aru*! :rage:`);
 	}
 }	
 
@@ -369,24 +369,24 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
         	var x = getRandomInt(0, 9);
 		if (x < 6){
         	if (x < 3){
-		msg.channel.send(`${msg.author} EeWww! :nauseated_face:`);
+		msg.channel.send(`${msg.author} Yame-yame *aru*! :nauseated_face:`);
 		}
 		else{
-            	msg.channel.send(`${msg.author} Yo that's nasty! :nauseated_face:`);
+            	msg.channel.send(`${msg.author} Yo that's nasty! *aru*! :nauseated_face:`);
 		}
 		}
 		else{ 
-		msg.channel.send(`${msg.author} Is that a poop? :nauseated_face:`);
+		msg.channel.send(`${msg.author} Is that a poop? *aru*! :nauseated_face:`);
 	}
 }	
 	
       	if (msg.content.toLowerCase().startsWith(".f")) { 
         	var x = getRandomInt(0, 8);
 		if (x < 4){
-		msg.channel.send(`**F**`);
+		msg.channel.send(`**F** *aru*!`);
 		}
 		else{
-		msg.channel.send(`Press **F** to Pay Respects`);
+		msg.channel.send(`Press **F** to Pay Respects *aru*!`);
 	}
 }	
 	
