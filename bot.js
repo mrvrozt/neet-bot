@@ -125,12 +125,16 @@ client.on('message', message => {
 	if (msg.includes(`CONGRATS`)){
 		message.channel.send(":clap: :clap: :clap:");
 	}
+	
+	if (msg.includes(`I HATE YOU TSATH`)){
+		message.channel.send(":middle_finger: :middle_finger: :middle_finger:");
+	}
 
 	//if (msg.includes(`SHIT`)){
 	//	message.channel.send("EeWww!");
 	//}
 
-	if (msg.includes(`.OOF`)){
+	if (msg.startsWith(`.OOF`)){
 		message.channel.send(`<:oof:598338675511918593>`);
 	}
 	
