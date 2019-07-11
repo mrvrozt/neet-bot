@@ -129,10 +129,6 @@ client.on('message', message => {
 	if (msg.includes(`I HATE YOU TSATH`)){
 		message.channel.send(`${message.author} Then you should ignore me *aru*! <:rrrreee:598894959093088256>`);
 	}
-	
-	if (msg.includes(`FUCK YOU TSATH`)){
-		message.channel.send(`${message.author} :middle_finger: :middle_finger: :middle_finger:`);
-	}
 
 	//if (msg.includes(`SHIT`)){
 	//	message.channel.send("EeWww!");
