@@ -89,6 +89,10 @@ client.on('message', message => {
 	if (msg.startsWith(`.HELP`)){
 		message.channel.send(commandList);
 	}
+	
+	if (msg.startsWith(`.RRREEE`)){
+		message.channel.send("<:rrrreee:598894959093088256>");
+	}
 
 	if (msg.includes(`:THONKK:`)){
 		message.channel.send("<:huuh:598368148390936577> <:qstn:598379777530920961>");
