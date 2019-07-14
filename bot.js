@@ -107,7 +107,7 @@ client.on('message', message => {
 	}
 	
 	if (msg.includes(`:GRINNTSATH:`)){
-		message.channel.send("<:grinnz:600086716984066069> :luv:");
+		message.channel.send("<:grinnz:600086716984066069> <:luvo:600091646180458523>");
 	}
 
 	//if (msg.includes(`FUCK`)){
@@ -139,7 +139,7 @@ client.on('message', message => {
 	}
 	
 	if (msg.includes(`I LOVE YOU TSATH`)){
-		message.channel.send(`${message.author} THANK YOU, I LOVE YOU TOO *aru*! <:luvv:600087124070367233>`);
+		message.channel.send(`${message.author} THANK YOU, I LOVE YOU TOO *aru*! <:cutez:600087124070367233>`);
 	}
 	
 	//if (msg.includes(`SHIT`)){
