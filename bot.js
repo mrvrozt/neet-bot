@@ -107,7 +107,7 @@ client.on('message', message => {
 	}
 	
 	if (msg.includes(`:GRINNTSATH:`)){
-		message.channel.send("<:grinnz:600086716984066069> <:luvo:600091646180458523>");
+		message.channel.send("<:grinnz:600086716984066069> <:luvo:600093041490919425>");
 	}
 
 	//if (msg.includes(`FUCK`)){
