@@ -139,7 +139,7 @@ client.on('message', message => {
 	}
 	
 	if (msg.includes(`I LOVE YOU TSATH`)){
-		message.channel.send(`${message.author} THANK YOU *aru*! <:luvv:600087124070367233>`);
+		message.channel.send(`${message.author} THANK YOU, I LOVE YOU TOO *aru*! <:luvv:600087124070367233>`);
 	}
 	
 	//if (msg.includes(`SHIT`)){
