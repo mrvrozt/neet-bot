@@ -105,6 +105,10 @@ client.on('message', message => {
 	if (msg.includes(`:RELAXD:`)){
 		message.channel.send("<:rlxd1:598381623624466433> <:rlxd2:598381641437544458>");
 	}
+	
+	if (msg.includes(`:GRINNTSATH:`)){
+		message.channel.send("<:grinnz:600086716984066069> :luv:");
+	}
 
 	//if (msg.includes(`FUCK`)){
 	//	message.channel.send(`${message.author} No! bad person!`);
@@ -133,7 +137,11 @@ client.on('message', message => {
 	if (msg.includes(`I HATE YOU TSATH`)){
 		message.channel.send(`${message.author} Then you should ignore me *aru*! <:rrrreee:598894959093088256>`);
 	}
-
+	
+	if (msg.includes(`I LOVE YOU TSATH`)){
+		message.channel.send(`${message.author} THANK YOU *aru*! <:luvv:600087124070367233>`);
+	}
+	
 	//if (msg.includes(`SHIT`)){
 	//	message.channel.send("EeWww!");
 	//}
