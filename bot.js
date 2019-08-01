@@ -282,9 +282,9 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 			msg.channel.send("I'd rate this "+ getRandomInt(1, 10)+"/10 *aru*!");
 		}
 
-		//if (msg.content.toLowerCase().startsWith(".howgay")) {
-			//msg.channel.send(`${msg.author} You are `+ getRandomInt(1, 100)+"% gay *aru*! :gay_pride_flag:");
-		//}
+		if (msg.content.toLowerCase().startsWith(".howgay")) {
+			msg.channel.send(`${msg.author} You are `+ getRandomInt(1, 100)+"% gay *aru*! :gay_pride_flag:");
+		}
 
 		if (msg.content.toLowerCase().startsWith(".howsmyluck")) {
 			msg.channel.send(`${msg.author} Your luck is `+ getRandomInt(1, 100)+"% *aru*! :four_leaf_clover:");
