@@ -281,7 +281,7 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 }
 
 		if (msg.content.toLowerCase().startsWith(".rate")) {
-			msg.delete;
+			msg.delete();
 			msg.channel.send("I'd rate this "+ getRandomInt(1, 10)+"/10 *aru*!");
 		}
 
