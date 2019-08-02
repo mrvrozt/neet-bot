@@ -163,7 +163,7 @@ client.on('message', message => {
 	//}
 
 	if (msg.startsWith(`.PING`)){
-		message.delete;
+		message.delete();
 		message.channel.send(`${message.author} You expect me to say Pong! *aru*?`);
 		//message.channel.send(`${message.author} Pong *aru*! :ping_pong: ` + Math.round(client.ping) + ` ms!`);
 		//message.channel.send(`${message.author} Pong! `);
