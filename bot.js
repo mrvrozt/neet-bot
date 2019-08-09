@@ -150,6 +150,10 @@ client.on('message', message => {
 		message.channel.send(`<:oof:598338675511918593>`);
 	}
 	
+	if (msg.startsWith(`.FEAR`)){
+		message.channel.send(`<:fear:609253347899211776>`);
+	}
+	
 	if (msg.includes(`I'M SATISFIED`)){
 		message.channel.send(`${message.author} I'm happy for you *aru*! :relaxed:`);
 	}
