@@ -43,7 +43,7 @@ console.log(`Logged in as ${client.user.tag}!`);
         game: {
             //name: '「東京放課後サモナーズ」',
 	    //name: 'Tokyo Afterschool Summoners',
-	    name: 'Seaside Fashionista',
+	    name: 'Embark! Summer Ocean Adventure',
 	    //name: 'Chunky/Burly/Hefty/Tubby/Beefy',
             type: "STREAMING",
 	    //type: "PLAYING",
