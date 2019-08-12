@@ -172,6 +172,11 @@ client.on('message', message => {
 	if (msg.startsWith(`.KISS`)){
 		message.channel.send(`${message.author} :kissing_closed_eyes:`);
 	}
+	
+	if (msg.startsWith(`.WAVE`)){
+		message.delete();
+		message.channel.send(`${message.author} <:cutez:600087124070367233> <:wvl:610285022926077972>`);
+	}
 
 	if (msg.startsWith(`.COFFEE`)){
 		message.channel.send(":coffee:");
