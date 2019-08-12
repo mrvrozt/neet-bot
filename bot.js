@@ -91,6 +91,7 @@ client.on('message', message => {
 	}
 	
 	if (msg.startsWith(`.RRREEE`)){
+		message.delete();
 		message.channel.send("<:rrrreee:598894959093088256>");
 	}
 
@@ -147,6 +148,7 @@ client.on('message', message => {
 	//}
 
 	if (msg.startsWith(`.OOF`)){
+		message.delete();
 		message.channel.send(`<:oof:598338675511918593>`);
 	}
 	
@@ -175,14 +177,16 @@ client.on('message', message => {
 	
 	if (msg.startsWith(`.WAVE`)){
 		message.delete();
-		message.channel.send(`${message.author} <:cutez:600087124070367233> <:wvl:610285022926077972>`);
+		message.channel.send(`<:cutez:600087124070367233> <:wvl:610285022926077972>`);
 	}
 
 	if (msg.startsWith(`.COFFEE`)){
+		message.delete();
 		message.channel.send(":coffee:");
 	}
 
 	if (msg.startsWith(`.TEA`)){
+		message.delete();
 		message.channel.send(":tea:");
 	}
 
