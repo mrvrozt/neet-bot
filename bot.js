@@ -419,6 +419,44 @@ if (msg.content.toLowerCase().startsWith(".8ball")) {
 	}
 }	
 	
+	if (msg.content.toLowerCase().includes(`<@!557942571238817802>`)) {
+		var msg1 = Array(3);
+		msg1[1] = "...";
+	    	msg1[2] = "I'm busy, go away!";
+		msg1[3] = ".  .  ."
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(msg1[1]);
+		}
+		else{
+            	msg.channel.send(msg1[3]);
+		}
+		}
+		else{ 
+		msg.channel.send(msg1[2]);
+	}
+}
+
+	if (msg.content.toLowerCase().includes(`<@557942571238817802>`)) {
+		var msg1 = Array(3);
+		msg1[1] = "...";
+	    	msg1[2] = "I'm busy, go away!";
+		msg1[3] = ".  .  ."
+        	var x = getRandomInt(0, 9);
+		if (x < 6){
+        	if (x < 3){
+		msg.channel.send(msg1[1]);
+		}
+		else{
+            	msg.channel.send(msg1[3]);
+		}
+		}
+		else{ 
+		msg.channel.send(msg1[2]);
+	}
+}
+	
 });
 
 
