@@ -131,6 +131,14 @@ client.on('message', message => {
 		message.channel.send( {files: ["./tsath/pinch.png"]});
 	}
 	
+	if (msg.includes(`COCK`)){
+		message.channel.send(`${message.author} <:huuh:598368148390936577>`);
+	}
+	
+	if (msg.includes(`PENIS`)){
+		message.channel.send(`${message.author} <:huuh:598368148390936577>`);
+	}
+	
 	if (msg.includes(`CONGRATS`)){
 		message.channel.send(":clap: :clap: :clap:");
 	}
