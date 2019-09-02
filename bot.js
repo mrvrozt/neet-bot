@@ -139,6 +139,10 @@ client.on('message', message => {
 		message.channel.send(`${message.author} <:huuh:598368148390936577>`);
 	}
 	
+	if (msg.includes(`DICK`)){
+		message.channel.send(`${message.author} <:huuh:598368148390936577>`);
+	}
+	
 	if (msg.includes(`CONGRATS`)){
 		message.channel.send(":clap: :clap: :clap:");
 	}
