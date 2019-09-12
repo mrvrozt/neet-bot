@@ -43,7 +43,7 @@ console.log(`Logged in as ${client.user.tag}!`);
         game: {
             //name: '「東京放課後サモナーズ」',
 	    //name: 'Tokyo Afterschool Summoners',
-	    name: 'Big Golden Dream! Sea House & Andvara Fors',
+	    name: 'Money Makers! The Beachside Hut and Andvara Falls',
 	    //name: 'Chunky/Burly/Hefty/Tubby/Beefy',
             type: "STREAMING",
 	    //type: "PLAYING",
