@@ -41,9 +41,9 @@ console.log(`Logged in as ${client.user.tag}!`);
     //client.user.setStatus('idle')
     client.user.setPresence({
         game: {
-            //name: '「東京放課後サモナーズ」',
+            name: '「東京放課後サモナーズ」',
 	    //name: 'Tokyo Afterschool Summoners',
-	    name: `:Error: Couldn't track current event`,
+	    //name: `:Error: Couldn't track current event`,
 	    //name: 'Chunky/Burly/Hefty/Tubby/Beefy',
             type: "STREAMING",
 	    //type: "PLAYING",
