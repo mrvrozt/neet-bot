@@ -106,10 +106,6 @@ client.on('message', message => {
 	if (msg.includes(`:RELAXD:`)){
 		message.channel.send("<:rlxd1:598381623624466433> <:rlxd2:598381641437544458>");
 	}
-	
-	if (msg.includes(`:GRINNTSATH:`)){
-		message.channel.send("<:grinnz:600086716984066069> <:luvo:600093041490919425>");
-	}
 
 	//if (msg.includes(`FUCK`)){
 	//	message.channel.send(`${message.author} No! bad person!`);
